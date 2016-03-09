@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace ListExtensions
 {
-    public static class ExcludeIncludeListExtensions
+    public static class FilterExtensions
     {
         public static Filter<T> IntersectAll<T>(this List<Filter<T>> lists)
         {
